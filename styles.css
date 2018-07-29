@@ -42,12 +42,39 @@ body {
 	color: #ffffff;
 	font-family: 'Noto Sans', sans-serif !important;
 	font-size: 30px;
+	margin: 50px 10px;
 }
 
 .jumbotron > .container > p > .btn{
 	font-family: 'Noto Sans', sans-serif !important;
+	margin: 0px 10px;
+	font-weight: 700; 
 }
 
+.jumbotron > .container > p > .btn:hover{
+	color: #fff;
+}
+
+/* NAVBAR */
 .navbar{
 	background-color: rgb(235, 205, 34);
+}
+
+.navbar-brand{
+	color: #fff;
+}
+
+.navbar-brand:hover{
+	color: #000;
+}
+
+.nav-item > .nav-link{
+	min-width: 48px;
+	margin: 0px 20px;
+	color: #fff;
+}
+
+.nav-item > .nav-link:hover{
+	border-bottom: 1px solid;
+	color: #000;
 }
