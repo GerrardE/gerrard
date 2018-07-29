@@ -4,19 +4,28 @@ body {
   font-family: 'Fira Sans', sans-serif !important;
 }
 
-/* Images */
-
-
-/* Navigation Links */
-/* Font awesome */
-.row{	
-  font-size: ;
- 	text-align: center;
+/* NAVBAR */
+.navbar{
+	background-color: rgb(235, 205, 34);
 }
 
-.row .fa{
-  font-size: 70px;
-  color: rgb(235, 205, 34);
+.navbar-brand{
+	color: #fff;
+}
+
+.navbar-brand:hover{
+	color: #000;
+}
+
+.nav-item > .nav-link{
+	min-width: 48px;
+	margin: 0px 20px;
+	color: #fff;
+}
+
+.nav-item > .nav-link:hover{
+	border-bottom: 1px solid;
+	color: #000;
 }
 
 /* MAIN STUFF */
@@ -55,26 +64,13 @@ body {
 	color: #fff;
 }
 
-/* NAVBAR */
-.navbar{
-	background-color: rgb(235, 205, 34);
+/* FONT AWESOME */
+.row{	
+  font-size: ;
+ 	text-align: center;
 }
 
-.navbar-brand{
-	color: #fff;
-}
-
-.navbar-brand:hover{
-	color: #000;
-}
-
-.nav-item > .nav-link{
-	min-width: 48px;
-	margin: 0px 20px;
-	color: #fff;
-}
-
-.nav-item > .nav-link:hover{
-	border-bottom: 1px solid;
-	color: #000;
+.row .fa{
+  font-size: 70px;
+  color: rgb(235, 205, 34);
 }
