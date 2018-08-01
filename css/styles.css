@@ -111,6 +111,11 @@ body {
 }
 
 /* ABOUT */
+#about {
+	margin: 30px;
+}
+
+/* CONTACT */
 .contact > .jumbotron {
 	background-image: url(../images/animation-bg.jpg);
 	display: inline-block;
@@ -123,10 +128,6 @@ body {
 	background-repeat: no-repeat;
 	width: 100%;
 	height: auto;
-}
-
-#about {
-	margin: 30px;
 }
 
 /********** Medium devices only **********/
