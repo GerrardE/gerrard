@@ -44,8 +44,8 @@ body {
 	max-width: 150px;
 }
 
-.navbar-toggler-icon{
-	
+.navbar-toggler{
+	border: 1px solid #fff !important;
 }
 
 /* MAIN STUFF */
@@ -101,13 +101,13 @@ body {
   }
 
 /* PORTFOLIO */
-.container > .row{
-	margin-bottom:
-}
-
 .col-lg-6 > .portfolio-item {
 	text-decoration: none;
 	color: #000;
+}
+
+.portfolio-item > img:hover{
+	border: 10px solid #fff;
 }
 
 /* ABOUT */
